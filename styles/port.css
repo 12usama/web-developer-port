@@ -1,112 +1,153 @@
 /* Common shared styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.textc{
+
+.textc {
     color: #FD6E0A;
 }
-.btn-pri{
-      border-radius: 5px;
-      background: #FD6E0A;
-      border: 0;
-      color: white;
-      font-size: 20px;
-      font-weight: 700;
-      padding: 15px 35px;
-      margin-bottom: -10px;
+
+.btn-pri {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-bottom: -10px;
 }
-.section-title{
-color:  #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.section-des{
+
+.section-des {
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related style */
-.header{
-    background:  #FFF8F3;
+.header {
+    background: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-   
-    
+
+.banner-content {}
+
+.banner .pro-pic {
+    width: 500px;
 }
-.banner .pro-pic{
-    width: 500px;  
-}
-.banner-greet{
+
+.banner-greet {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-head{
+
+.banner-head {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
 }
-.about-info-contain{
+
+.about-info-contain {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what{
+
+/* skill related style */
+#what {
     padding: 30px 150px;
+}
+
+.skill-contail {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-des {
+    color: black;
+}
+
+.resume-col-tit {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
