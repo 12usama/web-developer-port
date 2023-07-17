@@ -209,3 +209,66 @@ textarea {
 .social-links a {
     margin-right: 25px;
 }
+.hide{
+    display: none;
+}
+
+/* Responsive areas */
+/* Mobile  */
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+    .skill-contail, .resume-container, footer, .about-info-contain, .banner, nav {
+        flex-direction: column;
+    }
+   .banner, #what{
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
+        
+    }
+    .banner .pro-pic{
+        width: 100%;
+    }
+    .btn-pri{
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    .header{
+        background-image: none;
+    }
+    .skill-contail, .resume-container, footer, .about-info-contain, .banner, nav{
+        flex-direction: column;
+    }
+    .banner, #what{
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 30px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .banner .pro-pic{
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 90%;
+        
+    }
+}
